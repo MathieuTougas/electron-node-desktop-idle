@@ -1,13 +1,10 @@
-## desktop idle
-> [![Build status](https://ci.appveyor.com/api/projects/status/gwlnytjjw4ju3vs0?svg=true)](https://ci.appveyor.com/project/bithavoc/node-desktop-idle)
-> [![Build Status](https://travis-ci.org/bithavoc/node-desktop-idle.svg?branch=master)](https://travis-ci.org/bithavoc/node-desktop-idle)
-> [![Monthly Downloads](https://img.shields.io/npm/dm/desktop-idle.svg)](https://www.npmjs.com/package/desktop-idle)
+## electron desktop idle
 
-Node/Electron module to detect idle desktop users (OSX, Windows and Linux).
+Node/Electron module to detect idle desktop users (OSX, Windows and Linux). Adapted to use with webpack.
 
 **Stable | Actively maintained | Pull Requests Welcome**
 
-_Forked and inspired from [node-system-idle-time](https://github.com/paulcbetts/node-system-idle-time)_
+_Forked from [bithavoc/node-desktop-idle](https://github.com/bithavoc/node-desktop-idle)_
 
 ### Installation
 ```
@@ -38,7 +35,3 @@ X server development package and pkg-config are required:
 ```
 yarn test
 ```
-
-### License
-
-> `MIT - Bithavoc<im@bithavoc.io>`
